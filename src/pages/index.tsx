@@ -34,7 +34,6 @@ import teddy_bear from "./videos/language_results/carousel/teddy_bear.mp4"
 import transparent_rack from "./videos/language_results/carousel/transparent_rack.mp4"
 import water_jug from "./videos/language_results/carousel/water_jug.mp4"
 import wooden_rack from "./videos/language_results/carousel/wooden_rack.mp4"
-import lang_results from "./videos/language_results/lang_results.mp4"
 import teaser_video from "./videos/teaser.mp4"
 
 const Title: React.FC = ({children}) => {
