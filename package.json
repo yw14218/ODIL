@@ -1,9 +1,9 @@
 {
-  "name": "feature-fields-manipulation",
+  "name": "one-shot-dual-arm-imitation-learning",
   "version": "1.0.0",
   "private": true,
-  "description": "feature-fields-manipulation",
-  "author": "Ge Yang <ge.ike.yang@gmail.com>, William Shen <willshen@mit.edu>",
+  "description": "one-shot-dual-arm-imitation-learning",
+  "author": "Yilong Wang<yw14218@ic.ac.uk>",
   "keywords": [
     "gatsby"
   ],
@@ -14,8 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy-ssh": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:f3rm/f3rm.github.io.git",
-    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r https://github.com/f3rm/f3rm.github.io.git",
+    "deploy-ssh": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r git@github.com:yw14218/ODIL",
+    "deploy": "rm -r public & yarn run build && gh-pages -d public -b gh-pages -r https://github.com/yw14218/ODIL",
     "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
